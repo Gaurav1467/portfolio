@@ -158,7 +158,11 @@ const Contact = (props) => {
       <div className="w-10/12 mx-auto flex justify-center">
         <div className="md:flex justify-center md:justify-between text-center ">
           <p className="font-playfair font-semibold text-xl text-cyan-200">
-          Designed and Developed By Gaurav Sharma
+          Designed and Developed By <a 
+           className="hover:opacity-50 transition duration-500"
+           href="https://www.linkedin.com/in/gaurav-sharma5764/"
+           target="_blank"
+           rel="noreferrer"> Gaurav Sharma</a>
           </p>
         </div>
       </div>
