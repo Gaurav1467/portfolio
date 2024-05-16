@@ -23,7 +23,7 @@ const Project = ({ title, gitLink, liveLink }) => {
   return (
     <motion.div transition={{ ease: "easeOut", duration: 1 }} 
                 variants={projectVariant} 
-                className="relative">
+                className="relative mt-2">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <div className="flex justify-center" >
